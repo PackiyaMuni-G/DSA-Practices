@@ -10,7 +10,7 @@ public class BubbleSortExample {
 		 
     	 System.out.print(n + " ");
      }
-    for(int i=0;i<nums.length-1;i++) {
+    for(int i=0;i<nums.length;i++) {
     	for (int j = 0; j < nums.length-i-1; j++) { //this loop is responsible for swapping elements
 			if(nums[j] > nums[j+1]) {        // {5,2,6,8,4,9}
 				
