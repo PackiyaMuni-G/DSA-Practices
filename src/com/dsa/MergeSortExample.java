@@ -12,7 +12,7 @@ public class MergeSortExample {
             int mid = (l + r) / 2;
 
             // Recursively sort the left half of the current section
-            mergeSort(nums, l, mid);
+              mergeSort(nums, l, mid);
 
             // Recursively sort the right half of the current section
             mergeSort(nums, mid + 1, r);

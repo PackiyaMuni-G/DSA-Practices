@@ -7,9 +7,12 @@ public class LinkedListExample {
 
 	public static void main(String[] args) {
 		
-		LinkedList<Integer> nums=new LinkedList<>();
+		MyLinkedList nums=new MyLinkedList();
 		nums.add(5);
 		nums.add(9);
+		nums.add(6);
+		nums.addFirst(2);
+		nums.delete(5);
 //		nums.addFirst(6);
 //		System.out.println(nums);
 		nums.printValue();
