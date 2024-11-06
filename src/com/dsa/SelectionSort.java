@@ -25,12 +25,12 @@ public class SelectionSort {
 		     temp=nums[minIndex];    //temp = nums[2] = 2
 		        nums[minIndex]=nums[i];  // nums[2] = nums[0] = 6
 		         nums[i]=temp;             // nums[0] = 2
-		     	System.out.println();
-		    	  for(int n: nums) {
-		    		//u will get minIndex after finished 1st Innerloop iteration
-		  			//2 5 6 8 9 4 
-				    	 System.out.print(n + " ");
-				     }
+//		     	System.out.println();
+//		    	  for(int n: nums) {
+//		    		//u will get minIndex after finished 1st Innerloop iteration
+//		  			//2 5 6 8 9 4 
+//				    	 System.out.print(n + " ");
+//				     }
 			
 		}
 		System.out.println("\nafter sorting");

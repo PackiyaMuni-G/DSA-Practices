@@ -57,7 +57,7 @@ public class MyLinkedList {
 	}
 
 	public void delete(int data) {
-		Node current =head; ///5 9 6
+		Node current =head; ///2 5 9 6
 		while (current.next !=null && current.next.data!=data) {
 			          current=current.next;
 		}
