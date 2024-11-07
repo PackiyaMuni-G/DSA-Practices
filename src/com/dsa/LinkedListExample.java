@@ -11,7 +11,9 @@ public class LinkedListExample {
 		nums.add(5);
 		nums.add(9);
 		nums.add(6);
+		nums.add(8);
 		nums.addFirst(2);
+//		nums.delete(9);
 		nums.delete(5);
 //		nums.addFirst(6);
 //		System.out.println(nums);
